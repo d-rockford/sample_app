@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_development
+  database: points_app_dev
   pool: 5
   username: ar
   password:
@@ -18,7 +18,7 @@ development:
 test: &test
   adapter: postgresql
   encoding: unicode
-  database: sample_app_test
+  database: points_app_test
   pool: 5
   username: ar
   password:
@@ -27,7 +27,7 @@ test: &test
 production:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_production
+  database: points_app_production
   pool: 5
   username: ar
   password:
